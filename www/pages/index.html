@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Página inicial</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    
+    <body class="p-2">
+        
+        <div class="container-fluid p-1">
+            <div id="view-console" class="container-fluid view-console">
+                <div class="row">
+                    > Bem vindo ao ConsoleChat
+                </div>
+                <div class="row">
+                    > Digite /register NAME PASSWORD para registrar uma conta
+                </div>
+                <div class="row">
+                    > ou digite /login NAME PASSWORD para entrar em uma conta já existente
+                </div>
+            </div>
+        </div>
+        
+        <div class="fixed-bottom input-console">
+            <form id="console" autocomplete="off">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">></div>
+                    </div>
+                    <input id="input-console" class="form-control" type="text" focus>
+                </div>
+            </form>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="/js/console.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
+    </body>
+</html>
